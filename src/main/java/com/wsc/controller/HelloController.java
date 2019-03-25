@@ -16,7 +16,7 @@ public class HelloController {
         /*
             这里是测试自定义的错误页面和错误json
             页面返回错误页面
-            postman返回错误json
+            json请求返回错误json
             */
 
     @ResponseBody

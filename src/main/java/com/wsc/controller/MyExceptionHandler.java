@@ -31,7 +31,7 @@ public class MyExceptionHandler {
          */
         request.setAttribute("javax.servlet.error.status_code",500);//没有这个状态码就不会返回自定义的页面
         map.put("code","user.notexist");
-        map.put("message","用户出错啦");
+        map.put("message","用户出错啦！");
 
         request.setAttribute("ext",map);
         //转发到/error

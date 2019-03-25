@@ -3,6 +3,6 @@ package com.wsc.exception;
 public class UserNotExistException extends RuntimeException {
 
     public UserNotExistException() {
-        super("用户不存在");
+        super("用户不存在！");
     }
 }
